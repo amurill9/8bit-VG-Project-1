@@ -7,7 +7,6 @@ Video Game Project 1
 Authors: 
 
   Adrian Murillo
-  
   Agustin Basila
 
 Starting Date:
