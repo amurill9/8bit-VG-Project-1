@@ -1,2 +1,13 @@
-# 8bit-VG-Project-1
-Video game project with Minic Basila
+Video Game Project 1
+
+
+8bit Action Video Game 
+
+
+Authors: 
+
+	Adrian Murillo
+	Agustin Basila
+
+Starting Date:
+	December 2019
