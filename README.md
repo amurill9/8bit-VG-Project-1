@@ -6,8 +6,10 @@ Video Game Project 1
 
 Authors: 
 
-	Adrian Murillo
-	Agustin Basila
+  Adrian Murillo
+  
+  Agustin Basila
 
 Starting Date:
-	December 2019
+
+  December 2019
