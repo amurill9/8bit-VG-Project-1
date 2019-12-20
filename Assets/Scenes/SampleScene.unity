@@ -194,7 +194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396954587}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.68, y: 4.85, z: 0}
+  m_LocalPosition: {x: 2.36, y: 5.94, z: 0}
   m_LocalScale: {x: 5.416401, y: 6.500912, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -357,8 +357,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629946878}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.06, y: 8.66, z: 0}
-  m_LocalScale: {x: 22.579073, y: 15.2447405, z: 1}
+  m_LocalPosition: {x: -0.64, y: 12.79, z: 0}
+  m_LocalScale: {x: 34.04924, y: 21.12921, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -373,6 +373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1547480818}
   - component: {fileID: 1547480817}
+  - component: {fileID: 1547480819}
   m_Layer: 0
   m_Name: NPC1-Sprite_0
   m_TagString: Untagged
@@ -438,12 +439,24 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547480816}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.33, y: -1.26, z: 0}
+  m_LocalPosition: {x: 5.54, y: -1.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1547480819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547480816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2db8d74dd6c7984e8f5fcfeebcc5265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1820115399
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,7 +531,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820115399}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.975, y: -1.049, z: 0}
+  m_LocalPosition: {x: 2.34, y: 0.9, z: 0}
   m_LocalScale: {x: 2.805, y: 2.765, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -534,6 +547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1955352134}
   - component: {fileID: 1955352133}
+  - component: {fileID: 1955352135}
   m_Layer: 0
   m_Name: idle-2
   m_TagString: Untagged
@@ -598,9 +612,22 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955352132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.42, y: -1.07, z: 0}
+  m_LocalPosition: {x: -2.32, y: -0.94, z: 0}
   m_LocalScale: {x: 4.168279, y: 3.6694462, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1955352135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955352132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 452bf267da766e34db679cd210cd3896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
